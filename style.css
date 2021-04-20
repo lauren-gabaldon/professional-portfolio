@@ -36,9 +36,7 @@ header img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* display: inline-block; */
   flex-wrap: wrap;
-  /* padding: 1rem; */
 }
 .projects img {
   height: 30rem;
