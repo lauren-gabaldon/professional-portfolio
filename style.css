@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: 100%;
+  background-color: cadetblue;
+}
+img {
+  border-radius: 5%;
+}
+header {
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  height: 10em;
+  width: auto;
+  display: flex;
+  flex: 0 0 0;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.projects img {
+  height: 30rem;
+  width: 30rem;
+}
+#first-image {
+  height: 35rem;
+  width: 35rem;
+}
+
+.projects a {
+  flex: ;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: darkturquoise;
+  color: tan;
+  box-sizing: 65px;
+}
+
+section {
+  font-size: 25px;
+  text-decoration: none;
+}
