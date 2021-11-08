@@ -6,7 +6,30 @@ html {
 }
 body {
   box-sizing: 100%;
-  background-color: cadetblue;
+  /* background-color: rgb(240, 224, 183); */
+  background: hsla(41, 100%, 70%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(41, 100%, 70%, 1) 0%,
+    hsla(7, 76%, 47%, 1) 78%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(41, 100%, 70%, 1) 0%,
+    hsla(7, 76%, 47%, 1) 78%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(41, 100%, 70%, 1) 0%,
+    hsla(7, 76%, 47%, 1) 78%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffcf67", endColorstr="#d3321d", GradientType=1 );
+  font-family: "EB Garamond", serif;
+  color: rgba(53, 1, 1, 0.897);
 }
 img {
   border-radius: 5%;
@@ -22,9 +45,13 @@ header {
   font-size: 2rem;
   width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: stretch;
+  padding-left: 37.5%;
+  flex-direction: row;
   align-items: center;
+}
+header div:first-child {
+  margin-right: 30px;
 }
 header img {
   height: 10em;
@@ -69,8 +96,8 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgb(10, 171, 173);
-  color: tan;
+  /* background-color: rgb(10, 171, 173); */
+  color: goldenrod;
   box-sizing: 65px;
 }
 
